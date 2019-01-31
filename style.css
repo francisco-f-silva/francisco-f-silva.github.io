@@ -1,0 +1,218 @@
+body,
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+body {
+	background-color: rgb(246, 247, 249);
+}
+
+h2 {
+	color: rgba(35, 34, 34, 0.8);
+	font-family: 'Lobster', cursive;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+h2 span {
+	text-decoration: underline;
+}
+
+li {
+	list-style: none;
+}
+
+.main {
+	height: 100%;
+	background-image: url(Imagens/rahul-dey-705713-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.main h2 {
+	position: relative;
+	top: 90px;
+	left: 12%;
+}
+
+@media (max-width: 800px) {
+	.main h2 {
+		position: relative;
+		top: 50px;
+		left: 0px;
+		margin: 5px 15px;
+	}
+}
+
+.btn-secondary {
+	position: relative;
+	top: 7.5rem;
+	left: 60%;
+}
+
+@media (max-width: 800px) {
+	.btn-secondary {
+		top: 5rem;
+		left: 0%;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 800px) {
+	.joinbtn {
+		display: flex;
+
+	}
+}	
+
+.second {
+	padding: 5% 15%;
+	overflow: auto;
+}
+
+.second h2 {
+	text-align: center;
+	margin: 5% 5% 50px 5%;
+	line-height: 150%;
+}
+
+.second h3 {
+	color: rgba(35, 34, 34, 0.7);
+	font-family: 'Asap', sans-serif;
+	text-align: center;
+	margin: 5%;
+	line-height: 180%;
+}
+
+.title_pic_and_text {
+	padding: 70px 5%;
+}
+
+.title_pic_and_text h2 {
+	margin-bottom: 75px;
+}
+
+.col {
+	/*background-color: yellow;*/
+	/*border: 2px solid black;*/
+	overflow: auto;
+}
+
+.pic_and_text img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	width: 730px;
+	height: 475px;
+	width: 98%;
+	height: 37%;
+	border: 6px solid rgba(35, 34, 34, 0.3);
+}
+
+.text {
+	margin: 0% 8%;
+}
+
+.text h4 {
+	color: rgba(35, 34, 34, 0.7);
+	font-family: 'Asap', sans-serif;
+	text-align: justify;
+	line-height: 150%;
+}
+
+.compass_pic {
+	height: 100%;
+	display: flex;
+	background-image: url(Imagens/anastasia-petrova-193818-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.block_cards {
+	padding: 5%;
+}
+
+.block_cards h2 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.block_cards ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.block_cards-card {
+	margin: 30px 10px;
+}
+
+footer {
+	background-color: rgb(250, 251, 253);
+	padding: 50px 10% 3% 10%;
+	/*border-top: 2px solid rgb(252, 253, 255);*/
+}
+
+.listedoptions {
+	padding-bottom: 1%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.column {
+	width: 200px;
+	padding: 0px 15px;
+	margin-bottom: 35px;
+}
+
+footer h5 {
+	color: rgba(35, 34, 34, 0.8);
+	font-size: 18px;
+	font-family: 'Asap', sans-serif;
+	text-align: left;
+	margin-bottom: 25px;
+}
+
+.column ul {
+	padding-left: 0;
+}
+
+footer h6 {
+	color: rgba(35, 34, 34, 0.8);
+	font-family: 'Asap', sans-serif;
+	text-align: left;
+	line-height: 150%;
+}
+
+.column a {
+	color: rgba(35, 34, 34, 0.8);
+}
+
+.column a:hover {
+	text-decoration: none;
+	color: rgba(35, 34, 34, 0.5);
+}
+
+hr + p {
+	color: rgba(35, 34, 34, 0.5);
+	font-size: 10px;
+}
+
+p > a {
+	color: rgba(35, 34, 34, 0.5);
+}
+
+p > a:hover {
+	color: rgba(35, 34, 34, 0.5);
+}
+
